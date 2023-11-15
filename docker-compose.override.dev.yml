@@ -7,7 +7,3 @@ services:
       - "8000:8000"
     user: "${UID}"
 
-  postgres:
-    ports:
-      - "5432:5432"
-
